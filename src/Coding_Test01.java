@@ -9,18 +9,19 @@ public class Coding_Test01{
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("정수 1를 입력하세요");
+		System.out.print("첫번째 연산 정수를 입력해 주세요 ==> ");
 		int num1 = scan.nextInt();
-		System.out.println("정수 2를 입력하세요");
+		System.out.print("두번째 연산 정수를 입력해 주세요 ==> ");
 		int num2 = scan.nextInt();
 		
 		int result = sum(num1, num2);
-		System.out.println("두 정수의 합 = " + result);
+		System.out.println("두 정수의 합 = " + result);			
 	}
 
 	private static int sum(int num1, int num2) {
 		int sum = 0;
-		sum = num1 + num2;
+		sum = num1 + num2;		
 		return sum;
 	}
 }
+
